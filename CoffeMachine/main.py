@@ -234,7 +234,7 @@ while whishes != 'exit':
             
     print("Type 'menu' if you would see the menu of coffee machine")
     print("Type 'report' if you would see the contents of the machine")
-    
+    print("Type 'exit' to finish this program")
     try:
         signal.signal(signal.SIGINT, handler)
         whishes = input("What would you like? (espresso/latte/cappuccino): ")
